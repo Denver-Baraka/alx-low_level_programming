@@ -13,7 +13,6 @@ int main(void)
 	while (i < 27)
 	{
 		putchar (alphabet[i]);
-		putchar ('\n');
 		i++;
 	}
 
