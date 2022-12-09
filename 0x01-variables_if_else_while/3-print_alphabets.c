@@ -13,10 +13,6 @@ int main(void)
 	while (i < 52)
 	{
 		putchar (alphabet[i]);
-		if (i == 25)
-		{
-			putchar('\n');
-		}
 		i++;
 	}
 	putchar ('\n');
