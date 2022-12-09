@@ -22,8 +22,9 @@ int main(void)
 		else
 		{
 		putchar (alphabet[i]);
-		i++;
 		}
+		i++;
+		
 	}
 	putchar ('\n');
 
