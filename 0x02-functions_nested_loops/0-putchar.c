@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "_putchar.c"
+#include <main.h>
 /**
  *main -Entry point
  *
@@ -7,6 +7,7 @@
  */
 int main(void)
 {
-	_putchar('d');
+	_putchar('_putchar');
+	_putchar('\n');
 	return (0);
 }
