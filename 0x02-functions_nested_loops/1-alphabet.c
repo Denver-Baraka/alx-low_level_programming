@@ -1,13 +1,11 @@
-
-#include "main.h"
-/**
- *main -Entry point
- *
- *Return: 0 success
- */
-
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char alphabet[]="abcdefghijklmnopqrstuvwxyz";
+	int i=0;
+	while(i < 26)
+	{
+		_putchar(alphabet[i]);
+		i++;
+	}
+	-putchar('\n');
 }
