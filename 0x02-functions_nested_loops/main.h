@@ -19,15 +19,3 @@
 int _putchar(char c);
 void print_alphabet(void);
 
-void print_alphabet(void)
-{
-	int i=0;
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-
-	while (i < 26)
-	{
-		_putchar(alphabet[i]);
-		i++;
-	}
-	_putchar('\n');
-}
