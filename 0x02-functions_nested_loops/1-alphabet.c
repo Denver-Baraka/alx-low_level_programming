@@ -8,9 +8,9 @@ int _putchar(char c);
 
 void print_alphabet(void)
 {
+	int i = 0;
 	char alphabet[27] = "abcdefghijklmnopqrstuvwxyz";
 	alphabet[26] = '\n';
-	int i = 0;
 
 	while (i < 27)
 	{
