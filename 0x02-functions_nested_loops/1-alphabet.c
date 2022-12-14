@@ -8,10 +8,11 @@ int _putchar(char c);
 
 void print_alphabet(void)
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabet[27] = "abcdefghijklmnopqrstuvwxyz";
+	alphabet[26] = '\n';
 	int i = 0;
 
-	while (i < 26)
+	while (i < 27)
 	{
 		_putchar(alphabet[i]);
 	
