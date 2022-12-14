@@ -1,7 +1,7 @@
 int _putchar(char c);
 
 /**
- * print_alphabet -prints all lower alphabet letters
+ * print_alphabet_x10 -prints all lower alphabet letters
  * @abcdefghijklmopqrst letters to print
  *
  * print alphabet
