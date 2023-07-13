@@ -2,9 +2,7 @@
 
 /**
  * main - starting point of the program
- * @parameterx: no parameters, void
  *
- * just a main function
  * Return: 0 success
  */
 
