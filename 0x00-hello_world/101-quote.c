@@ -9,15 +9,14 @@
 int main(void)
 {
 	int i;
-	char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	
+	char msg[] = "and that piece of art is useful\"- Dora Korpar, 2015-10-19";
+
 	i =  0;
-	do
-	{
-		putchar(message[i]);
+	do {
+		putchar(msg[i]);
 		i++;
-	} while (message[i] != '\0');
+	} while (msg[i] != '\0');
 	putchar('\n');
 
-	return (0);
+	return (1);
 }
