@@ -1,0 +1,3 @@
+#!/bin/bash
+name=$(basename $CFILE .c)
+gcc -W $CFILE -o $name.o
