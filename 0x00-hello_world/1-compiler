@@ -1,3 +1,2 @@
 #!/bin/bash
-name=$(basename $CFILE .c)
-gcc -W $CFILE -o $name.o
+gcc -W $CFILE -o $(basename $CFILE .c).o
