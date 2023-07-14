@@ -11,6 +11,7 @@ int main(void)
 	int i = 0;
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	char alphabet_caps[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 	while (alphabet[i] != '\0')
 	{
 		putchar(alphabet[i]);
