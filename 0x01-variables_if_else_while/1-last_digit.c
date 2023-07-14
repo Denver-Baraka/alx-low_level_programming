@@ -24,6 +24,7 @@ int main(void)
 	else if (last_dgt < 6)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_dgt);
 	else
+		return (0);
 
 	return (0);
 }
