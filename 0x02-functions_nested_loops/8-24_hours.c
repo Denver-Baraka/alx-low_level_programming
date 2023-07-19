@@ -46,6 +46,14 @@ void jack_bauer(void)
 	}
 }
 
+/**
+ * print_output - just prints characters in the parameters
+ * @a: character to be printed
+ * @b: character to be printed
+ * @c: character to be printed
+ * @d: character to be printed
+ */
+
 void print_output(int a, int b, int c, int d)
 {
 	_putchar('0' + a);
