@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-int fibonacci(int n);
 /**
  * main - starting point
  *
@@ -8,28 +6,21 @@ int fibonacci(int n);
  */
 int main(void)
 {
-	int i;
+	int i = 0;
+	long a = 1, b = 2;
+	long fibo;
 
-	for (i = 1; i <= 50; i++)
+	printf("%ld, %ld, ", a, b);
+
+	for (i = 3; i < 50; i++)
 	{
-		printf("%d, ", fibonacci(i));
+		fibo = a + b;
+		a = b;
+		b = fibo;
+		printf("%ld, ", fibo);
 	}
-	printf("\n");
+	fibo = a + b;
+	printf("%ld\n", fibo);
 
 	return (0);
-}
-/**
- * fibonacci - prints the fibonacci series
- * @n: nth fiboacci
- *
- * Return: the fibonacci number
- */
-int fibonacci(int n)
-{
-	if (n == 2)
-		return (2);
-	else if (n == 1)
-		return (1);
-	else
-		return (fibonacci(n - 2) + fibonacci(n - 1));
 }
