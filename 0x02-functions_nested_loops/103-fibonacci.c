@@ -7,7 +7,7 @@
 int main(void)
 {
 	long a = 2, b = 4;
-	long fibo, checker;
+	long fibo, checker = 0;
 
 	printf("%ld, %ld, ", a, b);
 
@@ -17,6 +17,7 @@ int main(void)
 		a = b;
 		b = fibo;
 		printf("%ld, ", fibo);
+		checker = fibo;
 	}
 	fibo = a + b;
 	printf("%ld\n", fibo);
