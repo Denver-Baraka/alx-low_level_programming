@@ -16,7 +16,7 @@ int main(void)
 		b = fibo;
 		if (fibo % 2 == 0)
 		{
-			sum += fibo;
+			sum = fibo + sum;
 		}
 	}
 	printf("%ld\n", sum);
