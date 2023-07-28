@@ -6,3 +6,4 @@ int _abs(int);
 int print_last_digit(int);
 void times_table(void);
 void print_separator(int a, int b);
+int add(int, int);
