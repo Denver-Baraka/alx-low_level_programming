@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-	int i = 0;
 	long a = 2, b = 4;
 	long fibo, checker;
 
