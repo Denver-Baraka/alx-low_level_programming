@@ -1,1 +1,1 @@
-void rev_string(char *s);
+void _puts(char *str);
