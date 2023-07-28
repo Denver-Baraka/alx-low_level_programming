@@ -6,20 +6,20 @@
  */
 int main(void)
 {
-	long a = 2, b = 4;
-	long fibo;
+	long a = 1, b = 2;
+	long fibo, sum = 2;
 
-	printf("%ld, %ld, ", a, b);
-
-	while (fibo < 1500000)
+	while (fibo < 4000000)
 	{
 		fibo = a + b;
 		a = b;
 		b = fibo;
-		printf("%ld, ", fibo);
+		if (fibo % 2 == 0)
+		{
+			sum += fibo;
+		}
 	}
-	fibo = a + b;
-	printf("%ld\n", fibo);
+	printf("%ld\n", sum);
 
 	return (0);
 }
