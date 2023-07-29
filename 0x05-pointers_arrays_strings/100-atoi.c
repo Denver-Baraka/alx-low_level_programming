@@ -8,8 +8,10 @@
  */
 int _atoi(char *s)
 {
-	int i = 0, sum = 0, prev_sum = 0, value = 1;
+	int i = 0, value = 1;
 	int sgn = sign(s);
+	long sum = 0;
+	long prev_sum = 0;
 
 	while (*(s + i) != '\0')
 	{
