@@ -7,8 +7,9 @@
 int main(void)
 {
 	long a = 1, b = 2;
-	long fibo, sum = 0;
+	long fibo, sum;
 
+	sum = 0;
 	while (fibo < 4000000)
 	{
 		fibo = a + b;
