@@ -8,7 +8,7 @@ int main(void)
 {
 	int i = 0;
 	long a = 1, b = 2;
-	long fibo = 0, sum = 2;
+	long fibo = 0;
 
 	printf("%ld, %ld, ", a, b);
 
