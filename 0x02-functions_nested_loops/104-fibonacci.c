@@ -7,20 +7,20 @@
 int main(void)
 {
 	int i = 0;
-	long a = 1, b = 2;
-	long fibo = 0;
+	unsigned long a = 1, b = 2;
+	unsigned long fibo = 0;
 
-	printf("%ld, %ld, ", a, b);
+	printf("%lu, %lu, ", a, b);
 
 	while (i < 96)
 	{
 		fibo = a + b;
 		a = b;
 		b = fibo;
-		printf("%ld, ", fibo);
+		printf("%lu, ", fibo);
 		i++;
 	}
 	fibo = a + b;
-	printf("%ld\n", fibo);
+	printf("%lu\n", fibo);
 	return (0);
 }
