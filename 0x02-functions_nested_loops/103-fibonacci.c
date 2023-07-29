@@ -8,8 +8,9 @@ int main(void)
 {
 	long a = 1, b = 2;
 	long fibo, sum;
+	long *p = &sum;
 
-	sum = 0;
+	*p = 0;
 	while (fibo < 4000000)
 	{
 		fibo = a + b;
@@ -17,7 +18,7 @@ int main(void)
 		b = fibo;
 		if (fibo % 2 == 0)
 		{
-			sum = fibo + sum;
+			*p = fibo + sum;
 		}
 	}
 	printf("%ld\n", sum);
