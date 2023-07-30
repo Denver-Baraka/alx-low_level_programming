@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_line - prints n dashes
  * @n: number of dashes
