@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_chessboard - prints chessboard
  * @a: 8 by 8 chess matrix
