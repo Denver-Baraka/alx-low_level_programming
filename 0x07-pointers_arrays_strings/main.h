@@ -7,3 +7,5 @@ char *_strchr(char *s, char c);
 /* 3. strspn */
 int is_subset(char c, char *set);
 unsigned int _strspn(char *s, char *accept);
+/* 4. strpbrk */
+char *_strpbrk(char *s, char *accept);
