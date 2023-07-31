@@ -4,3 +4,6 @@ char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 /* 2. strchr */
 char *_strchr(char *s, char c);
+/* 3. strspn */
+int is_subset(char c, char *set);
+unsigned int _strspn(char *s, char *accept);
