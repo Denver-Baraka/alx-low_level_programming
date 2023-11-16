@@ -1,7 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
-int main(void)
+/**
+ * _puts_recursion - puts done with recursion
+ * @s: the string to be output with puts
+ *
+ * Return: recursive
+ */
+
+void _puts_recursion(char *s)
 {
-	printf("hello");
-	return (0);
+	if (*s == '\0')
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar(*s);
+	return (_puts_recursion(s + 1));
 }
